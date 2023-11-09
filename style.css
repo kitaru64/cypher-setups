@@ -1,0 +1,71 @@
+/* general */
+html {
+  font-family: 'Inter', sans-serif;
+}
+
+section {
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* header */
+header {
+  margin: 40px;
+  display: flex;
+  align-items:center;
+  background-color: white;
+}
+
+.home-link {
+  font-size: 32px;
+}
+
+.header-nav {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.header-menu {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+  gap: 70px;
+  font-size: 24px;
+}
+
+/* main */
+
+h2 {
+  display: inline;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 40px;
+}
+
+.cypher-section {
+  background-image: url(media/images/cypher.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
